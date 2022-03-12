@@ -1,0 +1,119 @@
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(54, 26, 70),
+      0 0 82px rgb(156, 48, 170),
+      0 0 92px rgb(97, 49, 99),
+      0 0 102px rgb(71, 29, 99),
+      0 0 151px rgb(100, 28, 107);
+}
+
+/* Additional styling */
+  
+body {
+  font-size: 18px;
+  font-family: "Vibur", sans-serif;
+  background-color: #010a01;
+}  
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+  
+h1 {
+    font-size: 4.2rem;
+}
+  
+h2 {
+    font-size: 1.8rem;
+}
+
+.container {
+  margin-top: 20vh;
+}
+    *{
+    margin:0;
+    padding:0;
+}
+:root{
+    --navbar-height:59px;
+}
+#logo{
+    margin:34px 45px;
+}
+#logo img{
+    height:38px;
+    margin:-9px 45px;
+}
+#navbar{
+    display:flex;
+    align-items:center;
+}
+#navbar{
+    position:relative;
+    margin:auto;
+}
+#navbar ul{
+    display:flex;
+    margin-left:90px;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position:absolute;
+    height:48%;
+    width:100%;
+    margin-top:-10px;
+    z-index: -1;
+    opacity:0.4;
+}
+#navbar ul li{
+    list-style:none;
+    font-size:1rem;
+}
+#navbar ul li a{
+    color:white;
+  display:block;
+  padding:3px 22px;
+  border-radius:20px;
+  text-decoration: none;
+}
+#navbar ul li a:hover{
+  color:black;
+  background-color:white;
+}
+
+    
+h1 {text-align: center;}
+
+
+
+
+body{
+  background-color:thistle
+}
+
+.card-title{
+  font-size: 40px;
+  font-weight: 600;
+
+}
+.card-text{
+  font-size: 23px;
+}
+
+.card-body a{
+  border-color: aliceblue;
+  background-color:rgba(85, 118, 202, 0.5);
+}
+.card{
+  background-color:rgba(129, 79, 153, 0.9) !important;
+}
+.container{
+  margin-top:-50px;
+}

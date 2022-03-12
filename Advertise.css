@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --navbar-height:59px;
+}
+#logo{
+    margin:34px 45px;
+}
+#logo img{
+    height:38px;
+    margin:-9px 45px;
+}
+#navbar{
+    display:flex;
+    align-items:center;
+}
+#navbar{
+    position:relative;
+    margin:auto;
+}
+#navbar ul{
+    display:flex;
+    margin-left:90px;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position:absolute;
+    height:48%;
+    width:100%;
+    margin-top:-10px;
+    z-index: -1;
+    opacity:0.4;
+}
+#navbar ul li{
+    list-style:none;
+    font-size:1rem;
+}
+#navbar ul li a{
+    color:white;
+  display:block;
+  padding:3px 22px;
+  border-radius:20px;
+  text-decoration: none;
+}
+#navbar ul li a:hover{
+  color:black;
+  background-color:white;
+}
+
+    
+h1 {text-align: center;}
+
+
+
+
+body{
+  background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg');
+  background-size: cover;
+}
+
+.card-title{
+  font-size: 40px;
+  font-weight: 600;
+
+}
+.card-text{
+  font-size: 23px;
+}
+
+.card-body a{
+  border-color: rgb(179, 193, 206);
+  background-color:rgba(93, 130, 218, 0.5);
+}
+.card{
+  background-color:rgba(102, 134, 212, 0.9) !important;
+}

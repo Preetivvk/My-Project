@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  :root{
+    --navbar-height:59px;
+  }
+  #logo{
+    margin:34px 45px;
+  }
+  #logo img{
+    height:38px;
+    margin:-1px 45px;
+  }
+  #navbar{
+    display:flex;
+    align-items:center;
+  }
+  #navbar{
+    position:relative;
+    margin:auto;
+  }
+  #navbar ul{
+    display:flex;
+    margin-left:90px;
+  }
+  #navbar::before{
+    content:"";
+    background-color: black;
+    position:absolute;
+    height:48%;
+    width:100%;
+    margin-top:-10px;
+    z-index: -1;
+    opacity:0.4;
+  }
+  #navbar ul li{
+    list-style:none;
+    font-size:1rem;
+  }
+  #navbar ul li a{
+    color:white;
+  display:block;
+  padding:3px 22px;
+  border-radius:20px;
+  text-decoration: none;
+  }
+  #navbar ul li a:hover{
+  color:black;
+  background-color:white;
+  }
+  
+    
+  h1 {text-align: center;}
+  
+  
+  
+  
+  body{
+  /* //background-image: url('https://img.freepik.com/free-photo/background-gradient-lights_23-2149305023.jpg?t=st=1647005326~exp=1647005926~hmac=c13f9735c37e1a7df278c2f95ef6a11522a6ea2231791a3a5681d2fb165e8d78&w=360'); */
+  /* background-size: cover; */
+  background-color:rgb(240, 202, 231);
+  }
+  
+  .card-title{
+  font-size: 40px;
+  font-weight: 600;
+  
+  }
+  .card-text{
+  font-size: 23px;
+  }
+  
+  .card-body a{
+  border-color: aliceblue;
+  background-color:rgba(122, 221, 163, 0.5);
+  }
+  .card{
+  background-color:rgba(196, 223, 101, 0.9) !important;
+  }
+  #button{
+    text-align:right;
+    color:rgb(107, 204, 17);
+    border:3px solid white;
+    border-radius:22px;
+    width:195px;
+    height:41px;
+    margin-top:-10px;
+  }
+  #button:hover{
+    color:brown;
+    border:3px solid white;
+  }
+  .date{
+      text-align:right;
+      margin-right: auto;
+      color:rgb(224, 139, 35)
+  }
